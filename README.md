@@ -1,1 +1,1 @@
-Aprendiendo React
+Aprendiendo React Desde Platzi
