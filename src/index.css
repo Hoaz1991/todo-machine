@@ -1,6 +1,7 @@
 body{margin:0;
   padding:0;
-  background:#252835;
+  background-image: url('/public/4892463.jpg');
+  background:#252835; 
   color:#1e1e1f;
   font-family:'montserrat',Arial,Helvetica,sans-serif
 }#root
