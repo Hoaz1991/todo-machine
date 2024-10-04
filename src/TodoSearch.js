@@ -1,11 +1,16 @@
-import './TodoSearch.css';function TodoSearch(){return(<input
+import React from 'react';
+import './TodoSearch.css';
+function TodoSearch(){
+   const [searchValue, setSearchValue] = React.
+   useState('');
+   console.log('Los usuarios buscan: ' + searchValue)
+   return(
+   <input
    placeholder="Buscar Tarea..."
    className="TodoSearch"
+   value={searchValue}
    onChange={(event)=>{
-      console.log('escribiste en el todo search')
-       console.log(event);
-       console.log(event.target);
-       console.log(event.target.value);
+      setSearchValue(event.target.value)
        
    }}
    />
